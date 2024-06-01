@@ -1,3 +1,4 @@
+# Problema "idades"
 print('Dados da primeira pessoa:')
 nome_pessoa1 = input('Nome: ')
 idade_pessoa1 = input('Idade: ')
