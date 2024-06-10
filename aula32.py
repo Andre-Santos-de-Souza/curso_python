@@ -44,11 +44,14 @@ print('////////////////////////////////////////////////////////')
 
 primeiro_nome = input("Digite o seu primeiro nome: ")
 
-primeiro_nome = len(primeiro_nome)
+tamanho_nome = len(primeiro_nome)
 
-if primeiro_nome <= 4:
-    print('Seu nome é curto')
-elif primeiro_nome > 4 and primeiro_nome <= 6:
-    print('Seu nome é normal')
+if tamanho_nome > 1:
+    if tamanho_nome <= 4:
+        print('Seu nome é curto')
+    elif tamanho_nome > 4 and tamanho_nome <= 6:
+        print('Seu nome é normal')
+    elif tamanho_nome > 6:
+        print('Seu nome é muito grande')
 else:
-    print('Seu nome é muito grande')
+    print("Digite mais de uma letra.")
